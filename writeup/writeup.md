@@ -24,12 +24,12 @@ There are a number of ways to get started on development. The following is the r
         - From the command line, use the command `cp -r ~/../public/pa2 ~/` (this will copy the entire starter files directory to your home directory)
         - Type `ls ~` to verify that you have copied the `pa2` directory over. 
     - From GitHub: 
-        - `git clone [ insert link when repo is created ]`
+        - `git clone https://github.com/CaoAssignments/cse8b-wi20-pa2-recursion-starter.git`
         - Alternatively, you can download the repo as a zipped folder.
 3. If you downloaded the repo as a zipped folder, navigate to it through your terminal or text editor (Atom, Eclipse, etc.). If you git cloned the repo, you can switch into that directory immediately.
-    - `cd [ insert repo name when created ]`
+    - `cd cse8b-wi20-pa2-recursion-starter`
     - Optional: You may choose to rename this repo. You can do this by using this command:
-        - `mv [ insert repo name ] PA2`
+        - `mv cse8b-wi20-pa2-recursion-starter pa2`
 4. You can now start working on it through vim using the following command or open the directory in your preferred editor.
     - `vim Hourglass.java` or `gvim Hourglass.java`
 5. To compile your code, use the `javac` command.
@@ -152,6 +152,7 @@ Finally, we want to convert a given Hawaiian string to its pronunciation, with o
 **Note:** You only need to check if the given String is valid and change the capitalization here. The actual conversion will be handled by `convertHelper()`.
 
 **Note:** You can test your `convert()` before implementing `convertHelper()` by checking if your `convert()` is able to perform the sanity check (i.e. null object and empty string input), validity check, and transform the valid string by making only the first character capitalized. Below are some sample input and output.
+
 |String input|`convert(input)` (before implementation of `convertHelper()`)|Explanation|
 |---|---|---|
 |null|null|
@@ -292,10 +293,10 @@ Before submitting, make sure your code compiles and runs properly on ieng6 if yo
 
 You can follow these steps to transfer your files to the ieng6 server.
 1. From your terminal, navigate to the directory containing your work. To verify that you are in the correct directory, use the following command.
-    - `ls [ insert repo name ]` or `ls your_PA2_folder_name`
+    - `ls cse8b-wi20-pa2-recursion` or `ls your_PA2_folder_name`
     - The folder where all of your work is located should appear. If it says "No such file or directory", then you need to switch to the correct directory.
 2. Once in the correct directory, you can use the `scp` command to transfer your files to the server.
-    - `scp -r [ insert repo name ] cs8bwi20__@ieng6.ucsd.edu:~/` or
+    - `scp -r cse8b-wi20-pa2-recursion cs8bwi20__@ieng6.ucsd.edu:~/` or
     - `scp -r your_PA2_folder_name cs8bwi20__@ieng6.ucsd.edu:~/`
     - It will ask for your password. If nothing is displayed while you are typing your password, this is expected! This is for security purposes so no one else can see how many characters are in your password.
 3. `ssh` into the server to compile and run your code.
@@ -304,7 +305,7 @@ After you have confirmed that your code works properly, if you were working remo
 1. From your **local machine**, open up your terminal.
 2. Navigate to the directory where you want to place your work.
 3. `scp` the folder from the server to your local machine. This command assumes that your work is in your home directory on ieng6.
-    - `scp -r cs8bwi20__@ieng6.ucsd.edu:~/[repo name] .` or
+    - `scp -r cs8bwi20__@ieng6.ucsd.edu:~/cse8b-wi20-pa2-recursion .` or
     - `scp -r cs8bwi20__@ieng6.ucsd.edu:~/your_PA2_folder_name .`
     - This will copy your PA2 work to the directory that you are currently in locally. Again, it will ask for your password so don't be alarmed if nothing appears when you type your password.
 4. You can now zip this folder or select all of the files to upload to Gradescope.
