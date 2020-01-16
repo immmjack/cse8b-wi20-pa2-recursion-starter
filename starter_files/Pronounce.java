@@ -130,7 +130,7 @@ public class Pronounce {
         // special pronunciation for vowels
         if(isVowel(str.charAt(0)))
         {
-            String pronunciation = null;  
+            String pronunciation = EMPTY;  
 
             // two consecutive vowel check, 
             // fallback to one vowel for two vowels that aren't a pair
