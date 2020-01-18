@@ -251,6 +251,8 @@ You can now test by compiling `Pronounce.java` and running `Pronounce` with no e
 
 Answer the following questions in a file named `README.md`. Write them in sections corresponding to question letter. **Remember to add a file header to your `README.md`. We have provided you with sample headers in the files you have been working in.**
 
+**Note** You may find [this site](https://files.fosswire.com/2007/08/fwunixref.pdf) useful for question a-e and [this site](https://kb.iu.edu/d/ahsf) useful for question f.
+
 You can create this file by using the touch command or saving the file with the `.md` extension in a text editor.
 - `touch README.md`
 
